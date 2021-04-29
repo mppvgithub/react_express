@@ -1,0 +1,3 @@
+[submodule "js_app"]
+	path = js_app
+	url = ../js_app.git
