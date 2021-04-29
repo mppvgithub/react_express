@@ -1,3 +1,6 @@
 [submodule "js_app"]
 	path = js_app
 	url = ../js_app.git
+[submodule "API_app"]
+	path = API_app
+	url = ../API_app.git
