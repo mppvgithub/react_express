@@ -9,8 +9,11 @@ var bodyParser = require('body-parser');
 /* connect to database */
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/dbphotogallery');
+mongoose.connect('mongodb://localhost/user');
+//user --> db name
 require("./models/Photo");
+
+//Photo is file name from model, where have declared the document and feild names called schema
 
 /* Define routes */
 var index = require('./routes/index');

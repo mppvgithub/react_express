@@ -1,7 +1,7 @@
 
 const multer = require('multer');
 const path   = require('path');
-
+console.log("path", path)
 /** Storage Engine */
 const storageEngine = multer.diskStorage({
   destination: './public/files',

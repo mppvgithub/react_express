@@ -8,5 +8,7 @@ var photoSchema = new Schema({
   caption: { type: String }
   });
 
-module.exports = mongoose.model('Photos', photoSchema);
+module.exports = mongoose.model('Images', photoSchema);
 
+// 'Photos' --> this is document name
+// 'Images' --> this is document name
